@@ -10,7 +10,7 @@ class prodi extends Model
     use HasFactory,HasUuids;
     protected $table = "prodis";
 
-    public function prodi(){
+    public function fakultas(){
         return $this->belongsTo(Fakultas::class,'fakultas_id');
     }
 }

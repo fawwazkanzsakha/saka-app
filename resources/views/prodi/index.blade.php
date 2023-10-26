@@ -13,6 +13,5 @@
         <td>{{$item['nama']}}</td>
 
     @endforeach
-@endforeach
 </table>
 @endsection
